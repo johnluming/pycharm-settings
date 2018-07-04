@@ -1,1 +1,68 @@
-<keymap version="1" name="Emacs copy" parent="Emacs" />
+<keymap version="1" name="Emacs copy" parent="Emacs">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+    <keyboard-shortcut first-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="alt x" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl x" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="alt p" />
+    <keyboard-shortcut first-keystroke="shift insert" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="k" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="Diff.FocusOppositePane" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl x" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="EditorKillRegion" />
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="n" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+</keymap>
