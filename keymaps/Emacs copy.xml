@@ -34,6 +34,7 @@
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="CopyElement" />
   <action id="Diff.FocusOppositePane" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
@@ -68,6 +69,9 @@
     <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="n" />
     <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="PyRunFileInConsole">
+    <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="QuickDocCopy">
     <keyboard-shortcut first-keystroke="ctrl insert" />
