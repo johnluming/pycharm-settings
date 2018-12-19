@@ -31,6 +31,7 @@
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
+  <action id="CollapseSelection" />
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
@@ -48,6 +49,7 @@
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="EditorChooseLookupItemDot" />
   <action id="EditorCopy">
     <keyboard-shortcut first-keystroke="ctrl insert" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
@@ -59,6 +61,9 @@
   <action id="EditorJoinLines" />
   <action id="EditorKillRegion" />
   <action id="EditorKillRingSave" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+  </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
@@ -69,7 +74,11 @@
   <action id="EditorScrollToCenter" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
-    <keyboard-shortcut first-keystroke="ctrl equals" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
+  <action id="ExecuteInPyConsoleAction">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
