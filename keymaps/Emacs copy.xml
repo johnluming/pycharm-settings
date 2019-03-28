@@ -40,6 +40,7 @@
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="CopyElement" />
+  <action id="CopyReference" />
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
@@ -173,6 +174,6 @@
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="com.jetbrains.python.console.RunPythonConsoleAction">
-    <keyboard-shortcut first-keystroke="windows" second-keystroke="y" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
 </keymap>
