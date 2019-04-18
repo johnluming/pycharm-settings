@@ -27,6 +27,9 @@
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="ChangesView.GroupBy.Directory" />
+  <action id="CloseAllEditorsButActive">
+    <mouse-shortcut keystroke="shift button2" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="k" />
