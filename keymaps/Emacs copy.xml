@@ -27,6 +27,7 @@
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="ChangesView.GroupBy.Directory" />
+  <action id="CheckinProject" />
   <action id="CloseAllEditorsButActive">
     <mouse-shortcut keystroke="shift button2" />
   </action>
@@ -68,8 +69,9 @@
     <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
+  <action id="EditorCutLineEnd" />
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="alt w" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="EditorJoinLines" />
   <action id="EditorKillRegion" />
