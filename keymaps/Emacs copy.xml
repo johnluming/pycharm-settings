@@ -124,7 +124,6 @@
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="alt f3" />
-    <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="FindPrevious">
