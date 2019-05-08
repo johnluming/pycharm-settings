@@ -1,4 +1,7 @@
 <keymap version="1" name="Emacs copy" parent="Emacs">
+  <action id="CloseAllEditorsButActive">
+    <mouse-shortcut keystroke="shift button2" />
+  </action>
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="ctrl insert" />
     <keyboard-shortcut first-keystroke="alt c" />
