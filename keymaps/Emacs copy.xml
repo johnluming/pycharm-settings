@@ -52,6 +52,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt x" />
   </action>
   <action id="EditorKillRegion" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+  </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="alt m" />
@@ -74,6 +77,10 @@
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="ExecuteInPyConsoleAction">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="GotoDeclaration">
