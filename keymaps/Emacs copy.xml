@@ -158,6 +158,7 @@
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
     <keyboard-shortcut first-keystroke="shift ctrl j" />
+    <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="MoveStatementUp">
     <keyboard-shortcut first-keystroke="shift ctrl up" />
