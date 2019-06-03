@@ -4,10 +4,9 @@
     <property name="created">2019-04-22T10:48:01</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2018.3.5.0.0</property>
-    <property name="modified">2019-05-12T02:49:25</property>
+    <property name="modified">2019-06-03T02:16:50</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="BIZ UDGothic" />
-  <option name="CONSOLE_FONT_SIZE" value="14" />
+  <option name="CONSOLE_FONT_NAME" value="Calibri" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
 </scheme>
