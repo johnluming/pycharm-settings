@@ -202,6 +202,7 @@
   </action>
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceConstant" />
   <action id="KotlinShellExecute" />
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
@@ -260,6 +261,7 @@
   <action id="ViewSource" />
   <action id="com.jetbrains.python.console.RunPythonConsoleAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt f9" />
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
   <action id="hg4idea.QFold" />
 </keymap>
