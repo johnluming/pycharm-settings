@@ -21,6 +21,7 @@
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
   <action id="CloseAllEditors" />
@@ -269,8 +270,12 @@
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
   <action id="SelectNextOccurrence" />
-  <action id="SplitHorizontally" />
-  <action id="SplitVertically" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
   <action id="SurroundWithLiveTemplate" />
   <action id="Switcher" />
   <action id="TodoViewGroupByShowPackages" />
