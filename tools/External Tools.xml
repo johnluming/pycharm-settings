@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="open in emacs advanced" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\johnl\.emacs.d\my files\open in emacs.eval" />
+      <option name="PARAMETERS" value="$FilePath$ $LineNumber$ $ColumnNumber$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="emacs test 1" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="&quot;C:\Program Files\GNU Emacs\bin\emacsclientw.exe&quot;  -n -e  &quot;(find-file $FileFath)&quot;" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
