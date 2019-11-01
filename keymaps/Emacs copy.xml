@@ -252,6 +252,7 @@
   <action id="PyRunFileInConsole">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="RecentChangedFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
   </action>
@@ -281,6 +282,9 @@
   <action id="SurroundWithLiveTemplate" />
   <action id="Switcher" />
   <action id="TodoViewGroupByShowPackages" />
+  <action id="Tool_External Tools_open in emacs">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
   <action id="Tool_External Tools_use emacs editor">
     <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
