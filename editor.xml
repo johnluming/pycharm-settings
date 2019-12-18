@@ -4,6 +4,8 @@
     <option name="FONT_FAMILY" value="Calibri" />
   </component>
   <component name="EditorSettings">
+    <option name="CARET_BLINKING_PERIOD" value="1000" />
+    <option name="IS_BLOCK_CURSOR" value="true" />
     <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
