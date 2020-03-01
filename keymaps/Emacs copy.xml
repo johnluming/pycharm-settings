@@ -255,7 +255,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="PyRunFileInConsole">
-    <keyboard-shortcut first-keystroke="f5" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" second-keystroke="c" />
   </action>
   <action id="RecentChangedFiles" />
   <action id="ReformatCode">
