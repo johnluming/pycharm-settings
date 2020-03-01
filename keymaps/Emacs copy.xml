@@ -22,6 +22,9 @@
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateKeyPromoterXToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
   <action id="CloseAllEditors" />
@@ -205,6 +208,9 @@
   </action>
   <action id="GotoNextIncompletePropertyAction">
     <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f2" />
   </action>
   <action id="Groovy.Shell.Execute" />
   <action id="Hg.Commit.And.Push.Executor" />
