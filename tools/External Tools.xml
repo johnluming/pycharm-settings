@@ -1,16 +1,16 @@
 <toolSet name="External Tools">
-  <tool name="open in emacs" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="&quot;C:\Program Files\GNU Emacs\bin\emacsclientw.exe&quot; +$LineNumber$:$ColumnNumber$ &quot;$FilePath$&quot;" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-    </exec>
-  </tool>
   <tool name="open in emacs test" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="&quot;C:\Program Files\GNU Emacs\bin\emacsclientw.exe&quot;  -e   &quot;(progn          (find-file &quot;&quot;$FilePath$&quot;&quot;)         (auto-revert-mode t)        )&quot;" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="open in emacs" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="&quot;C:/Program Files/AutoHotkey/AutoHotkey.exe&quot; &quot;c:/Users/johnl/OneDrive/code/ahk/open_in_emacs_from_pycharm.ahk&quot; &quot;$LineNumber$&quot; &quot;$ColumnNumber$&quot; &quot;$FilePath$&quot; " />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
 </toolSet>
