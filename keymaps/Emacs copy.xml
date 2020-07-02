@@ -25,6 +25,10 @@
   <action id="ActivateKeyPromoterXToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
   </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
   <action id="CloseAllEditors" />
@@ -65,6 +69,7 @@
   <action id="Diff.PrevChange">
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="Diff.ShowSettingsPopup" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
@@ -112,7 +117,6 @@
   </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="home" />
-    <keyboard-shortcut first-keystroke="alt m" />
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="EditorNextWord">
@@ -153,7 +157,7 @@
   <action id="EditorToggleStickySelection">
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
-    <keyboard-shortcut first-keystroke="alt comma" />
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
@@ -227,6 +231,7 @@
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceConstant" />
+  <action id="IntroduceParameter" />
   <action id="KotlinShellExecute" />
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
@@ -281,6 +286,7 @@
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
   <action id="SelectNextOccurrence" />
+  <action id="ServiceView.GroupByServiceGroups" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
@@ -294,8 +300,11 @@
   <action id="SurroundWithLiveTemplate" />
   <action id="Switcher" />
   <action id="TodoViewGroupByShowPackages" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift ctrl d" second-keystroke="f" />
+  </action>
   <action id="Tool_External Tools_open in emacs">
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt 2" />
   </action>
   <action id="Tool_External Tools_use emacs editor">
     <keyboard-shortcut first-keystroke="shift alt e" />
