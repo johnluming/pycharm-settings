@@ -8,7 +8,7 @@
   </tool>
   <tool name="open in emacs" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="&quot;C:/Program Files/AutoHotkey/AutoHotkey.exe&quot; &quot;c:/Users/johnl/OneDrive/code/ahk/open_in_emacs_from_pycharm.ahk&quot; &quot;$LineNumber$&quot; &quot;$ColumnNumber$&quot; &quot;$FilePath$&quot; " />
+      <option name="COMMAND" value="&quot;C:/Program Files/AutoHotkey/AutoHotkey.exe&quot; &quot;c:/Users/johnl/OneDrive/code/ahk/open_file_in_emacs.ahk&quot; &quot;$LineNumber$&quot; &quot;$ColumnNumber$&quot; &quot;$FilePath$&quot; " />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
